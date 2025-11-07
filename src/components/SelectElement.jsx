@@ -1,6 +1,6 @@
 function SelectElement({ setSelectedCategory, selectedCategory, categories }) {
   return (
-    <div className="mb-8 flex justify-center mb-10">
+    <div className="flex justify-center">
       <div className="bg-white/10 backdrop-blur-md rounded-xl p-4 shadow-xl border border-white/20">
         <label className="sm:inline hidden mr-3 text-white font-medium text-sm sm:text-base">
           Filter by Category:

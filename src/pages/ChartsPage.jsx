@@ -75,7 +75,7 @@ export default function ChartsPage() {
     <div className="min-h-screen bg-gradient-to-t from-slate-900 via-purple-900 to-slate-900 px-5 py-28">
       <div className="max-w-7xl mx-auto">
         <DataTitle />
-        <div className="flex justify-center gap-10 flex-wrap">
+        <div className="flex justify-center gap-10 flex-wrap mb-10">
           <SelectElement
             selectedCategory={selectedCategory}
             setSelectedCategory={setSelectedCategory}
