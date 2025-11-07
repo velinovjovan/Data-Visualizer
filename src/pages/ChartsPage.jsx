@@ -8,7 +8,6 @@ import CreditsLink from "../components/CreditsLink";
 import DataTitle from "../components/DataTitle";
 import SelectElement from "../components/SelectElement";
 import AddQuestionsButton from "../components/AddQuestionsButton";
-import ErrorScreen from "../components/ErrorScreen";
 
 const decode = (string) => {
   const cleaned = string.replace(/[\u200B-\u200D\uFEFF]/g, "");
@@ -91,7 +90,10 @@ export default function ChartsPage() {
             categoryData={categoryData}
             selectedCategory={selectedCategory}
           />
-          <DifficultyBox difficultyData={difficultyData} />
+          <DifficultyBox
+            difficultyData={difficultyData}
+            selectedCategory={selectedCategory}
+          />
         </DataBox>
         <CreditsLink />
       </div>

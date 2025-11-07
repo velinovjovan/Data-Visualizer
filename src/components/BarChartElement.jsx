@@ -39,7 +39,7 @@ function BarChartElement({ categoryData, selectedCategory }) {
             return (
               <Cell
                 key={`cell-${index}`}
-                fill={isSelected ? "#A855F7" : "#3B82F6"} // highlight color
+                fill={isSelected ? "#A855F7" : "#3B82F6"}
                 stroke={isSelected ? "#C084FC" : "none"}
                 strokeWidth={isSelected ? 2 : 0}
               />
