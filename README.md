@@ -1,16 +1,33 @@
-# React + Vite
+# 🎯 Trivia Data Visualization
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive web application built with **React**, **Recharts**, and the **Open Trivia DB API**, allowing users to explore trivia question data visually — including categories, difficulty levels, and more.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- **Dynamic Data Fetching** — Loads real trivia questions directly from the [Open Trivia Database](https://opentdb.com/)
+- **Category & Difficulty Charts** — Visualize question distribution by category and difficulty using Recharts.
+- **Interactive Filtering** — Filter data by category to focus on specific topics.
+- **Add More Questions** — Fetch and merge new sets of 50 questions dynamically.
+- **Clean, Responsive UI** — Built with Tailwind CSS and modern UI components.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React + Vite
+- **Styling:** Tailwind CSS
+- **Charts:** Recharts
+- **HTTP Requests:** Axios
+- **Data Source:** Open Trivia DB API
+- **Utilities:** he (for decoding HTML entities)
+
+---
+
+## 📊 How It Works
+
+1. The app fetches trivia questions and category data from the Open Trivia DB API.
+2. It decodes any HTML entities (like `&amp;`, `&quot;`, etc.) for clean display.
+3. Category and difficulty distributions are visualized using Recharts.
+4. Users can add more questions or filter by category to explore the data interactively.
