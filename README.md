@@ -1,4 +1,4 @@
-# 🎯 Trivia Data Visualization
+# Trivia Data Visualization 📊
 
 An interactive web application built with **React**, **Recharts**, and the **Open Trivia DB API**, allowing users to explore trivia question data visually — including categories, difficulty levels, and more.
 
